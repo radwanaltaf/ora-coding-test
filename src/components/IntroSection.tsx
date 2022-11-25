@@ -1,14 +1,41 @@
 import React from 'react'
 import { Button, Col, Container, Image, Row } from 'react-bootstrap'
 import bgImg from '../assets/image-intro-section.webp';
+import birthControl from '../assets/birth-control.webp';
+import contraception from '../assets/contraception.webp';
+import sexualHealth from '../assets/sexual-health.webp';
+import pms from '../assets/pms.webp';
 import ProductInfoCard from './ProductInfoCard';
+
+const productData = [
+    {
+        title: 'Birth Control',
+        subTitle: 'Pick from 10 different brands, available in pills and patches.',
+        image: birthControl
+    },
+    {
+        title: 'Emergency Contraception',
+        subTitle: 'Choose from 2 plan B pills that work up to 120 hours after unprotected sex',
+        image: contraception
+    },
+    {
+        title: 'Sexual Health',
+        subTitle: 'Oral and topical solutions to prevent and treat Cold Sores and Herpes.',
+        image: sexualHealth
+    },
+    {
+        title: 'PMS',
+        subTitle: 'From nausea, cramps, tenderness and aches we’ve got prescriptions to help',
+        image: pms
+    }
+]
 
 export default function IntroSection() {
     return (
         <div style={{ backgroundColor: '#F8F7F9' }}>
             <Container >
                 <Row className='d-flex align-items-center'>
-                    <Col lg={6}>
+                    <Col lg={6} className='text-center text-lg-start'>
                         <h1 className='fw-bold' style={{ color: '#182B6B', fontFamily: "'Merriweather', 'serif'" }}>
                             Complete care for your reproductive health
                         </h1>
@@ -34,28 +61,16 @@ export default function IntroSection() {
                         {/* <Image src={bgImg} fluid /> */}
                     </Col>
                 </Row>
-                <Row style={{ position: 'relative', bottom: 160 }} >
-                    <Col className='pb-3 ps-3 pe-3  rounded' lg>
-                        <ProductInfoCard
-                            title='Birth Control'
-                            subTitle='Pick from 10 different brands, available in pills and patches..'
-                        />
-                    </Col>
-                    <Col className='pb-3 ps-3 pe-3  rounded' lg>
-                        <ProductInfoCard title='Emergency Contraception'
-                            subTitle='Choose from 2 plan B pills that work up to 120 hours after unprotected sex'
-                        />
-                    </Col>
-                    <Col className='pb-3 ps-3 pe-3  rounded' lg>
-                        <ProductInfoCard title='Sexual Health'
-                            subTitle='Oral and topical solutions to prevent and treat Cold Sores and Herpes.'
-                        />
-                    </Col>
-                    <Col className='pb-3 ps-3 pe-3 rounded' lg>
-                        <ProductInfoCard title='PMS'
-                            subTitle='From nausea, cramps, tenderness and aches we’ve got prescriptions to help'
-                        />
-                    </Col>
+                <Row xs={1} md={2} style={{ position: 'relative', bottom: 140 }} >
+                    {productData.map((item, index) => (
+                        <Col className='pb-3 px-3 rounded' lg>
+                            <ProductInfoCard
+                                title={item.title}
+                                subTitle={item.subTitle}
+                                productImage={item.image}
+                            />
+                        </Col>
+                    ))}
 
 
                 </Row>
