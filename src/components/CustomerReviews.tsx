@@ -24,7 +24,7 @@ export default function CustomerReviews() {
     return (
         <Container className='mt-5'>
             <h1 style={{ color: '#182B6B' }} className='text-center fw-bold mb-4 '>What our patients are saying</h1>
-            <Row>
+            <Row xs={1}>
                 {reviewData.map((item, index) => (
                     <Col key={item.id}>
                         <div className='d-flex flex-column align-items-center'>
