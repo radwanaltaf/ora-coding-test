@@ -9,21 +9,25 @@ import ProductInfoCard from './ProductInfoCard';
 
 const productData = [
     {
+        id: 1,
         title: 'Birth Control',
         subTitle: 'Pick from 10 different brands, available in pills and patches.',
         image: birthControl
     },
     {
+        id: 2,
         title: 'Emergency Contraception',
         subTitle: 'Choose from 2 plan B pills that work up to 120 hours after unprotected sex',
         image: contraception
     },
     {
+        id: 3,
         title: 'Sexual Health',
         subTitle: 'Oral and topical solutions to prevent and treat Cold Sores and Herpes.',
         image: sexualHealth
     },
     {
+        id: 4,
         title: 'PMS',
         subTitle: 'From nausea, cramps, tenderness and aches we’ve got prescriptions to help',
         image: pms
@@ -63,7 +67,7 @@ export default function IntroSection() {
                 </Row>
                 <Row xs={1} md={2} style={{ position: 'relative', bottom: 140 }} >
                     {productData.map((item, index) => (
-                        <Col className='pb-3 px-3 rounded' lg>
+                        <Col key={item.id} className='pb-3 px-3 rounded' lg>
                             <ProductInfoCard
                                 title={item.title}
                                 subTitle={item.subTitle}

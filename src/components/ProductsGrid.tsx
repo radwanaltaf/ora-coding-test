@@ -11,42 +11,49 @@ import acneFull from '../assets/acne-full.webp';
 
 const productGridData = [
     {
+        id: 1,
         title: 'Birth Control',
         subtitle: 'Whether you’re new to birth control or want to speak to a doctor about your options we’re here for you.',
         prodImage: birthControlFull,
         price: 18,
     },
     {
+        id: 2,
         title: 'Emergency Contraception',
         subtitle: 'If you had unprotected sex or your primary birth control method didn’t work, the morning after pill can prevent unwanted pregnancy.',
         prodImage: contraceptionFull,
         price: 18,
     },
     {
+        id: 3,
         title: 'Period Delay',
         subtitle: 'Want be period-free for an important event or holiday? We have period delay tablets to help you take control over your period.',
         prodImage: periodFull,
         price: 18,
     },
     {
+        id: 4,
         title: 'Herpes & Cold Sores',
         subtitle: 'Treat by preventing the spread to give your body more time to fight the infection with anti-viral treatments.',
         prodImage: HerpesFull,
         price: 18,
     },
     {
+        id: 5,
         title: 'Yeast Infections',
         subtitle: 'Treat Thrush symptoms like itching, irritation, redness and soreness with anti-fungal medication.',
         prodImage: yeastFull,
         price: 18,
     },
     {
+        id: 6,
         title: 'PMS',
         subtitle: 'Struggling with PMS? We have medication to treat cramps, nausea, aches, breast tenderness and others.',
         prodImage: pmsFull,
         price: 18,
     },
     {
+        id: 7,
         title: 'Acne & Rosacea',
         subtitle: 'These hormonal skin concerns can be treated with topical and oral medication for clearer, healthy skin.',
         prodImage: acneFull,
@@ -62,7 +69,7 @@ export default function ProductsGrid() {
             {/* Array.from({ length: 4 }).map((_, idx) */}
             <Row xs={1} md={3} className="g-4 mt-1">
                 {productGridData.map((item) => (
-                    <Col>
+                    <Col key={item.id}>
                         <Card style={{ borderRadius: '20px' }} className='text-center h-100' bg='light' border='0'>
                             <Card.Img style={{ width: '170px', height: '170px', objectFit: 'contain' }} className='mx-auto container' variant="top" src={item.prodImage} />
                             <Card.Body>
