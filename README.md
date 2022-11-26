@@ -1,10 +1,38 @@
-# Getting Started with Create React App
+# Screenshots of the finished product:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Intro](./src//assets/HeaderSection.png)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+![Intro](./src//assets/ProdGrid.png)
+
+---
+
+![Intro](./src//assets/Reviews.png)
+
+---
+
+![Intro](./src//assets/Footer.png)
+
+---
+
+![Intro](./src//assets/HeaderMobile.png)
+
+---
+
+![Intro](./src//assets/ProdGridMobile.png)
+
+---
+
+![Intro](./src//assets/GetStartedMobile.png)
+
+---
+
+![Intro](./src//assets/FooterMobile.png)
+
+## What I built?
+
+This was a coding test for ORA where I referred to OVA's website and tried to clone it using ReactJS. The website is fully responsive and I have tried to make it as similar to OVA as possible. I have used Bootstrap 5 to make the website look good on all screen sizes (responsive). For the time being all the data is hard coded as I was not provided with any APIs to fetch data from. I have tried my best to use the best practices, however, there is a lot of room for improvment and the futures file is where you will find a few points on what can be made better. Also please note, I was suffering with COVID-19 while making this, hence, I was working on it very little daily.
 
 ### `npm start`
 
