@@ -43,7 +43,7 @@ export default function IntroSection() {
                             We make it easy to get personalised prescriptions online, quickly, discreetly, affordably and direct to your door.
                         </h6>
 
-                        <Button className='mt-3 px-4' style={{ backgroundColor: '#182B6B' }} variant="primary">
+                        <Button className='mt-3 px-4' style={{ backgroundColor: '#182B6B', borderRadius: '20px', }} variant="primary">
                             <span style={{ fontFamily: 'sans-serif' }} className='fw-bold'>Start evaluation</span>
                         </Button>{' '}
                     </Col>
