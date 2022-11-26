@@ -14,7 +14,7 @@
 
 ![Intro](./src//assets/Footer.png)
 
----
+# Screenshots of the finished product for Mobile:
 
 ![Intro](./src//assets/HeaderMobile.png)
 
