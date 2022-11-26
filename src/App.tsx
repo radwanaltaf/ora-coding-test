@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import MainNavBar from './components/MainNavBar';
 import IntroSection from './components/IntroSection';
-import ProductInfoCard from './components/ProductInfoCard';
 import ProductsGrid from './components/ProductsGrid';
+import CustomerReviews from './components/CustomerReviews';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <MainNavBar />
       <IntroSection />
       <ProductsGrid />
+      <CustomerReviews />
     </div>
   );
 }

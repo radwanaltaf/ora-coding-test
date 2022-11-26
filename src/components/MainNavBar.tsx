@@ -7,7 +7,7 @@ import logo from '../assets/ova-logo.svg';
 
 function MainNavBar() {
     return (
-        <Navbar style={{ backgroundColor: '#EEEEEE' }} collapseOnSelect expand="lg">
+        <Navbar style={{ backgroundColor: '#EEEEEE', fontFamily: 'sans-serif' }} collapseOnSelect expand="lg">
             <Container>
                 <Navbar.Brand className='fw-bold me-5 display-1' href="#home">
                     <Image src={logo} width="75" height="75" />

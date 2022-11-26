@@ -44,7 +44,7 @@ export default function IntroSection() {
                         </h6>
 
                         <Button className='mt-3 px-4' style={{ backgroundColor: '#182B6B' }} variant="primary">
-                            <span className='fw-bold'>Start evaluation</span>
+                            <span style={{ fontFamily: 'sans-serif' }} className='fw-bold'>Start evaluation</span>
                         </Button>{' '}
                     </Col>
                     <Col lg={6}

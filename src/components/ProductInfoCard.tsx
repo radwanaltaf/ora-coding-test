@@ -13,6 +13,7 @@ export default function ProductInfoCard({ title, subTitle, productImage }: any) 
             <div className="py-2">
                 <div style={{ color: 'darkblue' }} className='fw-bold'>{title}</div>
                 <div style={{ fontSize: 13 }} className='fw-light'>{subTitle}</div>
+                <div style={{ fontSize: 13, color: 'darkblue' }} className='fw-light pt-3'>Start evaluation</div>
             </div>
 
         </div>

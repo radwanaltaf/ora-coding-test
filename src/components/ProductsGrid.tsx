@@ -66,7 +66,7 @@ export default function ProductsGrid() {
                         <Card style={{ borderRadius: '20px' }} className='text-center h-100' bg='light' border='0'>
                             <Card.Img style={{ width: '170px', height: '170px', objectFit: 'contain' }} className='mx-auto container' variant="top" src={item.prodImage} />
                             <Card.Body>
-                                <Card.Title>{item.title}</Card.Title>
+                                <Card.Title style={{ color: '#182B6B' }} className='fw-bold'>{item.title}</Card.Title>
                                 <Card.Text>
                                     {item.subtitle}
                                 </Card.Text>
@@ -74,7 +74,7 @@ export default function ProductsGrid() {
 
                             </Card.Body>
                             <div className='d-flex align-content-end justify-content-evenly  p-4'>
-                                <Button variant='primary' style={{ backgroundColor: '#182B6B', border: '0px', borderRadius: '20px', fontSize: '14px' }} className='px-4'> Buy now from ${item.price}</Button>
+                                <Button variant='primary' style={{ backgroundColor: '#182B6B', border: '0px', borderRadius: '20px', fontSize: '14px', fontFamily: 'sans-serif' }} className='px-4'> Buy now from ${item.price}</Button>
 
                                 <Button variant='light' style={{ border: '1px solid #182B6B', borderRadius: '20px', fontSize: '14px' }} className='px-5'> Learn More</Button>
                             </div>

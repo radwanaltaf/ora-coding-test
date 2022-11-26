@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
-body {
+body,
+html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Merriweather, serif 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "'Merriweather', 'serif'" !important;
+  /* font-family: -apple-system, BlinkMacSystemFont, Merriweather, serif 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif ;
+    sans-serif ; */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; 
 }
 
 code {
