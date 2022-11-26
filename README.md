@@ -32,9 +32,9 @@
 
 ## What I built?
 
-This was a coding test for ORA where I referred to OVA's website and tried to clone it using ReactJS. The website is fully responsive and I have tried to make it as similar to OVA as possible. I have used Bootstrap 5 to make the website look good on all screen sizes (responsive). For the time being all the data is hard coded as I was not provided with any APIs to fetch data from. I have tried my best to use the best practices, however, there is a lot of room for improvment and the futures file is where you will find a few points on what can be made better. Also please note, I was suffering with COVID-19 while making this, hence, I was working on it very little daily.
+This was a coding test for ORA where I referred to OVA's website and tried to clone it using ReactJS with TS. The website is fully responsive and I have tried to make it as similar to OVA as possible. I have used Bootstrap 5 to make the website look good on all screen sizes (responsive). For the time being all the data is hard coded as I was not provided with any APIs to fetch data from. I have tried my best to use the best practices, however, there is a lot of room for improvment and the futures file is where you will find a few points on what can be made better. Also please note, I was suffering with COVID-19 while making this, hence, I was working on it very little daily.
 
-## What I built?
+## How to run/test the project?
 
 ### `npm start`
 
@@ -55,3 +55,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## Additional Notes:
+
+1. I would like to have clarification on if I am suppoed to use any APIs to fetch data or not
