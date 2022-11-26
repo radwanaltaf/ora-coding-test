@@ -21,7 +21,7 @@ export default function ReviewSlide() {
                             style={{
                                 backgroundImage: `url(${bgImgDr})`,
                                 backgroundRepeat: 'no-repeat',
-                                backgroundSize: 'contain',
+                                backgroundSize: 'cover',
                                 height: '48vh',
                                 maxHeight: '48vh',
                                 minHeight: '20vh',

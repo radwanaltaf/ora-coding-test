@@ -6,13 +6,13 @@ import bgImg from '../assets/contact-us.webp';
 export default function ContactUs() {
     return (
         <div style={{ backgroundColor: '#F8F7F9' }}>
-            <Container className='mt-4' >
+            <Container className='mt-4 pb-4' >
                 <Row className='d-flex align-items-center'>
-                    <Col lg={6}
+                    <Col xs={{ order: 2 }} lg={6}
                         style={{
                             backgroundImage: `url(${bgImg})`,
                             backgroundRepeat: 'no-repeat',
-                            backgroundSize: 'contain',
+                            backgroundSize: 'cover',
                             height: '50vh',
                             maxHeight: '50vh',
                             minHeight: '20vh',
@@ -20,8 +20,8 @@ export default function ContactUs() {
                     >
 
                     </Col>
-                    <Col lg={6} className='text-center text-lg-start'>
-                        <h1 className='fw-bold' style={{ color: '#182B6B', fontFamily: "'Merriweather', 'serif'" }}>
+                    <Col xs={{ order: 1 }} lg={6} className='text-center text-lg-start'>
+                        <h1 className='fw-bold p-2' style={{ color: '#182B6B', fontFamily: "'Merriweather', 'serif'" }}>
                             Talk to us
                         </h1>
                         <h6 className='fw-light mt-3'>
