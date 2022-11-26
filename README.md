@@ -38,6 +38,10 @@ This was a coding test for ORA where I referred to OVA's website and tried to cl
 
 ## How to run/test the project?
 
+### `npm install`
+
+This will install all dependencies
+
 ### `npm start`
 
 Runs the app in the development mode.\
