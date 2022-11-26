@@ -61,3 +61,4 @@ Your app is ready to be deployed!
 ## Additional Notes:
 
 1. I would like to have clarification on if I am suppoed to use any APIs to fetch data or not
+2. Footer was taken from Bootstrap
