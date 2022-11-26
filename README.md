@@ -1,4 +1,6 @@
-# Screenshots of the finished product:
+# Practical test for ORA
+
+## Screenshots of Finished Product
 
 ![Intro](./src//assets/HeaderSection.png)
 
@@ -14,7 +16,7 @@
 
 ![Intro](./src//assets/Footer.png)
 
-# Screenshots of the finished product for Mobile:
+## Screenshots of the Finished Product for Mobile:
 
 ![Intro](./src//assets/HeaderMobile.png)
 
